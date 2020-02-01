@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="main">
+
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="*this">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+
+    <view class="jhgw-homepage-book">
+        <view class="jhgw-homepage-book-title"><text>精选图书</text></view>
+        <view class="jhgw-homepage-book-box">
+            <view class="jhgw-homepage-book-list">
+                <navigator url="details/details">
+                    <image src="/images/the-red-book.jpg"></image>
+                    <view class="jhgw-homepage-book-text"><text> 红书 </text></view>
+                    <view class="jhgw-homepage-book-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+            <view class="jhgw-homepage-book-list">
+                <navigator url="details/details">
+                    <image src="/images/the-beautiful-of-space.jpg"></image>
+                    <view class="jhgw-homepage-book-text"><text> 宇宙之美 </text></view>
+                    <view class="jhgw-homepage-book-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+            <view class="jhgw-homepage-book-list">
+                <navigator url="details/details">
+                    <image src="/images/the-space-ship.jpg"></image>
+                    <view class="jhgw-homepage-book-text"><text> 带我去太空 </text></view>
+                    <view class="jhgw-homepage-book-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+            <view class="jhgw-homepage-book-list">
+                <navigator url="details/details">
+                    <image src="/images/the-beautiful-of-the-math.jpg"></image>
+                    <view class="jhgw-homepage-book-text"><text> 数学之美 </text></view>
+                    <view class="jhgw-homepage-book-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+</view>

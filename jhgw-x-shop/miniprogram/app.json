@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "杰辉精品书店",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home-8a8a8a.png",
+        "selectedIconPath": "images/home-1296db.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/category-8a8a8a.png",
+        "selectedIconPath": "images/category-1296db.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shopping-car-8a8a8a.png",
+        "selectedIconPath": "images/shopping-car-1296db.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/my-8a8a8a.png",
+        "selectedIconPath": "images/my-1296db.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
